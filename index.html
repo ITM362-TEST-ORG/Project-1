@@ -23,15 +23,16 @@
       </li>
       <li id="input-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" >
+        <input type="email" name="email" id="email" pattern="^.+@.+$" required>
       </li>
       <li id="input-password">
-        <label for="password">Email</label>
-        <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" >
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" required>
       </li>      
         <li id="input-category">
           <label for="category">What are you most intersted in?</label>
-          <select name="category" id="category">
+          <select name="category" id="category" required>
+            <option value="Choose" selected disabled>Choose</option>
             <option value="headphones">Headphones</option>
             <option value="speakers">Speakers</option>
             <option value="amplifiers">Amplifiers</option>
