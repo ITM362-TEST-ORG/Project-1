@@ -43,6 +43,8 @@ form {
   max-width: 33rem; /* form box width */
   width: 100%;  
   background-color: #394543;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 label {
@@ -61,6 +63,20 @@ input[type="text"],
 input[type="password"] {
   color: #191a1b;
   font-family: 'Quantico', sans-serif;
+}
+
+/* styling for all input fields */
+input[type="email"],
+input[type="submit"],
+input[type="text"],
+input[type="password"] {
+  font-family: 'Quantico', sans-serif;
+  border-radius: 0.35rem; /* how rounded the corners are */
+  font-size: 1rem;
+  padding: 0.35rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 /* dropdown menu styling */
