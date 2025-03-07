@@ -104,3 +104,13 @@ input[type="submit"] {
   padding: 0.35em;
   cursor: pointer;
 }
+
+/* show/hide password button styling */
+.ui-component__password-field__show-hide {
+  background-color: #394543; 
+  color: #ffe456; 
+  font-family: 'Quantico', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-radius: 0.35rem;
+}
