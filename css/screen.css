@@ -17,3 +17,26 @@ html, body {
   height: 100%; 
   width: 100%;
 }
+
+/* background styling */
+body {
+  background-color: #07A873;
+}
+
+/* font and font size for h1 */
+h1 {
+  font-family: 'Nabla', sans-serif;;
+  font-size: 2.5rem;
+}
+
+/* font for p */
+p {
+  font-family: 'Quantico', sans-serif;
+}
+
+/* form styling */
+form {
+  max-width: 33rem; /* form box width */
+  width: 100%;  
+  background-color: #394543;
+}
