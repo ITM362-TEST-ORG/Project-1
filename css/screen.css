@@ -56,16 +56,15 @@ input[type="password"] {
   font-family: 'Quantico', sans-serif;
 }
 
-/* category dropdown styling */
+/* dropdown menu styling */
 select {
   font-family: 'Quantico', sans-serif;
   font-size: 1em;
   cursor: pointer;
 }
 
-/* dropdown menu styling */
-select {
+/* submit button styling */
+input[type="submit"] {
+  color: #191a1b;
   font-family: 'Quantico', sans-serif;
-  font-size: 1em;
-  cursor: pointer;
 }
