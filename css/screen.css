@@ -40,3 +40,18 @@ form {
   width: 100%;  
   background-color: #394543;
 }
+
+label {
+  font-family: 'Quantico', sans-serif;
+  font-size: 1em;
+  display: inline-flex; /* aligns the input fields with the text*/
+  align-items: center;
+}
+
+/* styling for the input fields */
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  color: #191a1b;
+  font-family: 'Quantico', sans-serif;
+}
