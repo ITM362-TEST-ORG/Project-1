@@ -20,7 +20,7 @@ html, body {
 
 /* background styling */
 body {
-  background-color: #07A873;
+  background-color: #ffe456;
 }
 
 /* font and font size for h1 */
@@ -32,7 +32,11 @@ h1 {
 /* font for p */
 p {
   font-family: 'Quantico', sans-serif;
+  color: #ffe456;
 }
+
+
+
 
 /* form styling */
 form {
@@ -43,10 +47,13 @@ form {
 
 label {
   font-family: 'Quantico', sans-serif;
+  color : #ffe456;
   font-size: 1em;
-  display: inline-flex; /* aligns the input fields with the text*/
-  align-items: center;
+  display: inline-flex; /* aligns input fields with the text*/
 }
+
+
+
 
 /* styling for the input fields */
 input[type="email"],
@@ -65,6 +72,6 @@ select {
 
 /* submit button styling */
 input[type="submit"] {
-  color: #191a1b;
+  color: #000000;
   font-family: 'Quantico', sans-serif;
 }
