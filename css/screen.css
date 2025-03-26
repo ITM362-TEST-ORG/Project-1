@@ -15,6 +15,8 @@ html, body {
 /* background styling */
 body {
   background-image: url("/images/grado-headphones.jpg");
+  background-position: center;
+  background-size: cover;
   background-color: #ffe456;
 }
 
