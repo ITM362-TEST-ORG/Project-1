@@ -14,6 +14,7 @@ html, body {
 
 /* background styling */
 body {
+  background-image: url("/images/grado-headphones.jpg");
   background-color: #ffe456;
 }
 
@@ -112,3 +113,4 @@ input[type="submit"] {
   cursor: pointer;
   border-radius: 0.35rem;
 }
+
