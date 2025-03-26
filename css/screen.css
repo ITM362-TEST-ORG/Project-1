@@ -115,3 +115,9 @@ input[type="submit"] {
   border-radius: 0.35rem;
 }
 
+
+/* mobile formatting */
+@media (max-width: 50rem) {
+  form {
+    width: 90%; 
+}
