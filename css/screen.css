@@ -1,4 +1,4 @@
-/* body alignment */
+/* Body alignment */
 body {
   display: flex;
   justify-content: center;
@@ -8,37 +8,35 @@ body {
 /* HTML and body padding and margins */
 html, body {
   box-sizing: border-box;
-  height: 100%; 
+  height: 100%;
   width: 100%;
 }
 
-/* background styling */
+/* Background styling */
 body {
   background-image: url("../images/grado-headphones.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* font and font size for h1 */
+/* Font and font size for h1 */
 h1 {
   font-family: 'Nabla', Arial, sans-serif;
   font-size: 2.5rem;
 }
 
-/* font for p */
+/* Font for p */
 p {
   font-family: 'Quantico', Helvetica, sans-serif;
   color: #ffe456;
   margin-top: 1rem;
 }
 
-
-
-
-/* form styling */
+/* Form styling */
 form {
-  max-width: 33rem; /* form box width */
-  width: 100%;  
+  max-width: 35rem; /* max width of the form */
+  min-width: 20rem; /* min width of the form */
+  width: 90%; /* Responsive */
   background-color: #394543;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -46,120 +44,121 @@ form {
 
 label {
   font-family: 'Quantico', Helvetica, sans-serif;
-  color : #ffe456;
+  color: #ffe456;
   font-size: 1em;
-  display: inline-flex; /* aligns input fields with the text*/
-}
-
-
-
-
-/* styling for the input fields */
-input[type="email"],
-input[type="text"],
-input[type="password"] {
-  color: #191a1b;
-  font-family: 'Quantico', Helvetica, sans-serif;
-}
-
-/* styling for all input fields */
-input[type="email"],
-input[type="submit"],
-input[type="text"],
-input[type="password"] {
-  font-family: 'Quantico', Helvetica, sans-serif;
-  border-radius: 0.35rem; /* how rounded the corners are */
-  font-size: 1rem;
-  padding: 0.35rem;
+  display: block;
   margin-top: 0.75rem;
-  margin-bottom: 0.5rem;
-  width: 50%;
-  cursor: pointer;
+  text-align: center;
+  width: 100%;
 }
 
-/* dropdown menu styling */
+/* Styling for input fields */
+input[type="email"],
+input[type="text"],
+input[type="password"],
 select {
   font-family: 'Quantico', Helvetica, sans-serif;
+  color: #191a1b;
   border-radius: 0.35rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   margin-top: 0.5rem;
-  font-size: 1em;
-  width: 25%;
-  padding: 0.35em;
+  width: 100%;
   cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+/* Dropdown menu styling */
+select {
+  font-size: 1rem;
 }
 
 #input-submit {
-  display: flex;         
-  justify-content: center;  /* allows submit button to be aligned to the middle */
+  display: flex;
 }
 
-/* submit button styling */
+/* Submit button styling */
 input[type="submit"] {
   color: #000000;
-  font-family: 'Quantico', sans-serif; 
+  font-family: 'Quantico', Helvetica, sans-serif;
   margin-top: 1.5rem;
   border-radius: 0.35rem;
-  font-size: 1em;
-  width: 50%;
-  padding: 0.35em;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.5rem;
   cursor: pointer;
+  background-color: #ffe456;
+  border: none;
 }
 
-/* show/hide password button styling */
+/* Show/Hide password button styling */
 .ui-component__password-field__show-hide {
-  background-color: #394543; 
-  color: #ffe456; 
+  background-color: #394543;
+  color: #ffe456;
   font-family: 'Quantico', Helvetica, sans-serif;
   font-size: 0.75rem;
   cursor: pointer;
   border-radius: 0.35rem;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
 }
 
 
-  /* mobile formatting */
-@media (max-width: 50rem) {
+/* Mobile formatting */
+@media only screen and (min-width: 30rem) {
   form {
-    width: 90%; 
-    padding: 3rem; 
+    width: 90%;
+    padding: 2rem;
+  }
+
+  label {
+    font-size: 1.25rem;
+  }
+
+  input[type="submit"],
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 60rem) {
+  form {
+    width: 40rem;
+    padding: 3rem;
+  }
+
+  ol {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   label {
-    font-size: 2.25em;
-    padding: 0.25rem 0.25rem
-  }
-  
-  .ui-component__password-field__show-hide {
-    padding: 10rem;
-    font-size: 2rem; 
-    padding: 0.5rem 1rem; 
-    border-radius: 0.5rem; 
-    margin: 1rem;
-  }
-    
-  input[type="submit"], 
-  input[type="text"], 
-  input[type="password"], 
-  input[type="email"],
-  select {
-    width: 95%; 
-    padding: 1rem; 
-    font-size: 2rem;
-  }
-  
-  h1 {
-    font-size: 6rem;
-    text-align: center;
-    padding-bottom: 1rem;
+    font-size: 1.5rem;
   }
 
-  p {
-    font-size: 2.5rem; 
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+  input[type="submit"],
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    font-size: 1.5rem;
   }
 }
+
 
 /* webstorm github push test again*/
