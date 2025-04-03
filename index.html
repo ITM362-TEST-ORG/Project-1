@@ -27,13 +27,15 @@
       </li>
       <li id="input-email">
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email" placeholder="johnsmith@example.com" pattern="^.+@.+$" required>
+        <input type="email" name="email" id="email" placeholder="john@example.com" pattern="^.+@.+$" required>
       </li>
       <li id="input-password">
         <label for="password">Password: </label>
-        <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" required minlength="8">
-        <button class="ui-component__password-field__show-hide" type="button" onclick="toggle(this);">Show</button>
-      </li>      
+        <div class="password-container">
+          <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" required minlength="8">
+          <button class="show-hide" type="button" onclick="toggle(this);">Show</button>
+        </div>
+      </li>
         <li id="input-category">
           <label for="category">What are you most interested in?</label>
           <select name="category" id="category" required>
