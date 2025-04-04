@@ -2,7 +2,6 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 /* HTML and body padding and margins */
@@ -10,6 +9,17 @@ html, body {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
+}
+
+/* Form styling */
+form {
+  width: 80%; /* Responsive */
+  background-color: #394543;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction:column;
 }
 
 /* Background styling */
@@ -22,37 +32,26 @@ body {
 /* Font and font size for h1 */
 h1 {
   font-family: 'Nabla', Arial, sans-serif;
-  font-size: 8rem;
-  margin-bottom: 5rem;
-  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem
 }
 
 /* Font for p */
 p {
   font-family: 'Quantico', Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #ffe456;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
-}
-
-/* Form styling */
-form {
-  width: 80%; /* Responsive */
-  background-color: #394543;
-  padding: 2rem;
-  border-radius: 2rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction:column;
 }
 
 label {
   font-family: 'Quantico', Helvetica, sans-serif;
   color: #ffe456;
-  font-size: 3rem;
+  font-size: 1.25rem;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   width: 100%;
 }
@@ -65,43 +64,22 @@ select {
   font-family: 'Quantico', Helvetica, sans-serif;
   color: #191a1b;
   border-radius: 0.35rem;
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   width: 80%;
   cursor: pointer;
   border: 1px solid #000000;
   text-align: center;
   display:block;
-  margin:0 auto;
-  margin-bottom: 2rem;
-}
-
-/* Dropdown menu styling */
-select {
-  font-size: 3rem;
-  padding: 1rem;
-}
-
-/* Submit button styling */
-input[type="submit"] {
-  color: #000000;
-  font-family: 'Quantico', Helvetica, sans-serif;
-  border-radius: 0.35rem;
-  font-size: 3.5rem;
-  width: 60%;
-  padding: 1rem;
-  cursor: pointer;
-  background-color: #ffe456;
-  border: none;
-  display: block;
-  margin: 2rem auto;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
 }
 
 /* Wrapper to center the Show button */
 .show-button-wrapper {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  margin: 0.5rem;
 }
 
 /* Center the Show button */
@@ -109,13 +87,47 @@ input[type="submit"] {
   background-color: #394543;
   color: #ffe456;
   font-family: 'Quantico', Helvetica, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1rem;
   cursor: pointer;
   padding: 0.25rem 0.75rem;
-  border: none;
+  border-radius: 0.4rem;
   display: block;
   width: auto;
 }
+
+/*
+.show-hide:hover {
+  background-color: #e6cf4e;
+}
+*/
+
+/* Dropdown menu styling */
+select {
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+  color: #000000;
+  font-family: 'Quantico', Helvetica, sans-serif;
+  border-radius: 0.35rem;
+  font-size: 1.5rem;
+  width: 60%;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #ffe456;
+  border: none;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+
+
+}
+
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
