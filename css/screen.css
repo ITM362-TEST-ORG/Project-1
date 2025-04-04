@@ -82,7 +82,7 @@ select {
   text-align: center;
   align-items: center;
   display:block;
-  margin: 0 auto;
+  margin: 0 auto 0.75rem auto;
 }
 
 /* Wrapper to center the Show button */
