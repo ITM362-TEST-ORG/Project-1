@@ -91,16 +91,24 @@ input[type="submit"] {
   border: none;
 }
 
+/* Wrapper to center the Show button */
+.show-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
 /* Show/Hide password button styling */
-.ui-component__password-field__show-hide {
+.show-hide {
   background-color: #394543;
   color: #ffe456;
   font-family: 'Quantico', Helvetica, sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   cursor: pointer;
-  border-radius: 0.35rem;
-  padding: 0.25rem;
-  margin-left: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border: none;
+  display: block;
+  width: auto;
 }
 
 
