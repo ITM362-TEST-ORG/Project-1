@@ -34,7 +34,6 @@ form {
 body {
   background-image: url("../images/grado-headphones.jpg");
   background-position: center;
-  background-size: cover;
 }
 
 /* Font and font size for h1 */
@@ -79,7 +78,6 @@ select {
   border: 1px solid #000000;
   text-align: center;
   display:block;
-  margin: 0 auto;
   margin-bottom: 0.5rem;
 }
 
