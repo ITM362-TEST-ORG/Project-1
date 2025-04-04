@@ -4,11 +4,19 @@ body {
   justify-content: center;
 }
 
-/* HTML and body padding and margins */
+/* HTML and body padding and margins https://stackoverflow.com/questions/6464592/how-to-align-entire-html-body-to-the-center */
 html, body {
-  box-sizing: border-box;
   height: 100%;
-  width: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* Form styling */
