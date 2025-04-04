@@ -38,7 +38,6 @@ p {
 
 /* Form styling */
 form {
-  max-width: 88rem; /* max width of the form */
   width: 80%; /* Responsive */
   background-color: #394543;
   padding: 4rem;
@@ -46,7 +45,6 @@ form {
   margin: 0 auto;
   display: flex;
   flex-direction:column;
-  align-items:center;
 }
 
 label {
@@ -82,7 +80,6 @@ select {
 select {
   font-size: 3rem;
   padding: 1rem;
-  width: 90%;
 }
 
 /* Submit button styling */
@@ -91,7 +88,7 @@ input[type="submit"] {
   font-family: 'Quantico', Helvetica, sans-serif;
   border-radius: 0.35rem;
   font-size: 3.5rem;
-  width: 60%;
+  width: 100%;
   padding: 1rem;
   cursor: pointer;
   background-color: #ffe456;
