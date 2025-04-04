@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Project 1</title>
-  <meta charset="utf-8" >
-  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" >
-  <link rel="stylesheet" media="screen" href="css/screen.css" >
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </head>
 <body>
 <main id="content">
-  <form method="get" action="#null" autocomplete="on">
+  <section>
     <h1>Audiophile Antics Forum</h1>
-    <p>
-      Sign up to learn and ask questions about all your audiophile needs.
-    </p>
-    <p>
-      From headphones to speakers.
-    </p>
-    <ol>
-      <li id="input-name">
-        <label for="name">Name: </label>
-        <input type="text" name="name" id="name" placeholder="John Smith" required>
-      </li>
-      <li id="input-email">
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" placeholder="john@example.com" pattern="^.+@.+$" required>
-      </li>
-      <li id="input-password">
-        <label for="password">Password: </label>
-        <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" required minlength="8">
-        <div class="show-button-wrapper">
-          <button class="show-hide" type="button" onclick="toggle(this);">Show</button>
-        </div>
-      </li>
-        <li id="input-category">
-          <label for="category">What are you most interested in?</label>
-          <select name="category" id="category" required>
-            <option value="" selected disabled>Choose</option>
-            <option value="headphones">Headphones</option>
-            <option value="speakers">Speakers</option>
-            <option value="amplifiers">Amplifiers</option>
-            <option value="turntables">Turntables</option>
-            <option value="Subwoofers">Subwoofers</option>
-          </select>
-        </li>
-        <li id="input-submit">
-            <input type="submit" name="submit" id="submit" value="Sign up" >
-        </li>
-    </ol>
+    <p>Sign up to learn and ask questions about all your audiophile needs.</p>
+    <p>From headphones to speakers.</p>
+  </section>
+  <form method="get" action="#" autocomplete="on">
+    <div id="input-name">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" placeholder="John Smith" required>
+    </div>
+    <div id="input-email">
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="john@example.com" pattern="^.+@.+$" required>
+    </div>
+    <div id="input-password">
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" placeholder="Minimum 8 Characters Long" required minlength="8">
+      <div class="show-button-wrapper">
+        <button class="show-hide" type="button" onclick="toggle(this);">Show</button>
+      </div>
+    </div>
+    <div id="input-category">
+      <label for="category">What are you most interested in?</label>
+      <select name="category" id="category" required>
+        <option value="" selected disabled>Choose</option>
+        <option value="headphones">Headphones</option>
+        <option value="speakers">Speakers</option>
+        <option value="amplifiers">Amplifiers</option>
+        <option value="turntables">Turntables</option>
+        <option value="subwoofers">Subwoofers</option>
+      </select>
+    </div>
+    <div id="input-submit">
+      <input type="submit" name="submit" id="submit" value="Sign up">
+    </div>
   </form>
 </main>
 </body>
