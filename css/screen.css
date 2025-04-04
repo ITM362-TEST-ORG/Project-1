@@ -40,8 +40,8 @@ p {
 form {
   width: 80%; /* Responsive */
   background-color: #394543;
-  padding: 4rem;
-  border-radius: 0.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
   margin: 0 auto;
   display: flex;
   flex-direction:column;
@@ -88,7 +88,7 @@ input[type="submit"] {
   font-family: 'Quantico', Helvetica, sans-serif;
   border-radius: 0.35rem;
   font-size: 3.5rem;
-  width: 100%;
+  width: 60%;
   padding: 1rem;
   cursor: pointer;
   background-color: #ffe456;
