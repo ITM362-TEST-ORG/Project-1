@@ -30,10 +30,13 @@ form {
   flex-direction:column;
 }
 
-/* Background styling */
+/* Background styling https://www.scaler.com/topics/html-background-image-full-screen/ */
 body {
   background-image: url("../images/grado-headphones.jpg");
-  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 /* Font and font size for h1 */
